@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+      integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/15112e41d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Adivina el Número</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Adivina el Número!</h1>
+      <div class="juego">
+        <p>
+          Adivina un número entre <span id="numMin">1</span> y
+          <span id="numMax">10</span>
+        </p>
+        <form id="mainForm">
+          <input
+            id="valorIngresado"
+            type="text"
+            placeholder="Adivina el numero..."
+          />
+          <button id="btnIngresar" type="submit">Ingresar</button>
+        </form>
+        <p class="mensaje"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
